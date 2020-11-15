@@ -4,7 +4,7 @@ import com.twitter.finatra.http.EmbeddedHttpServer
 import com.twitter.finatra.thrift.ThriftClient
 import com.twitter.inject.server.FeatureTest
 import com.twitter.util.Future
-import xed.caas.Server
+import tf.caas.Server
 import xed.caas.domain.thrift.{TRoleInfo, TUserAuthResult}
 import xed.caas.service.TCaasService
 

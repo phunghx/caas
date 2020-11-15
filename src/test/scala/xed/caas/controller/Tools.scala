@@ -3,14 +3,12 @@ package xed.caas.controller
 import org.apache.commons.lang3.SerializationUtils
 import org.apache.shiro.session.mgt.SimpleSession
 import redis.clients.jedis.JedisPool
-import xed.caas.repository.RedisSimpleSessionDAO
-import xed.caas.util.ZConfig
-import xed.jcaas.common.DataSourceBuilder
-import xed.jcaas.core.CAAS
+import tf.caas.repository.RedisSimpleSessionDAO
+import tf.caas.util.ZConfig
+import tf.jcaas.common.DataSourceBuilder
+import tf.jcaas.core.CAAS
 
-/**
- * @author sonpn
- */
+
 object Tools {
 
   def providesRedisPool(): JedisPool = {

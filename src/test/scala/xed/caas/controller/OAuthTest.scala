@@ -1,12 +1,11 @@
 package xed.caas.controller
 
-import xed.caas.repository.{FacebookOAuthRepository, GoogleOAuthRepository}
-import xed.caas.util.JsonParser
+import xed.caas.repository.FacebookOAuthRepository
 import org.apache.commons.codec.digest.HmacUtils
+import tf.caas.repository.{FacebookOAuthRepository, GoogleOAuthRepository}
+import tf.caas.util.JsonParser
 
-/**
- * @author sonpn
- */
+
 object GoogleOAuthTest {
   def main(args: Array[String]): Unit = {
     val id = "112433301274568705376"

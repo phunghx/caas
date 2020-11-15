@@ -2,9 +2,7 @@ package xed.caas.controller
 
 import org.apache.commons.codec.digest.HmacUtils
 
-/**
- * @author sonpn
- */
+
 object ToolGenPass {
   def main(args: Array[String]): Unit = {
     val username = "gg-113715195776897671484" // "gg-113715195776897671484"

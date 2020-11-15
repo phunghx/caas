@@ -6,19 +6,18 @@ import com.twitter.inject.Test
 import org.apache.commons.lang3.SerializationUtils
 import org.apache.shiro.session.mgt.SimpleSession
 import redis.clients.jedis.JedisPool
+import tf.caas.repository.RedisSimpleSessionDAO
+import tf.caas.util.ZConfig
+import tf.jcaas.common.DataSourceBuilder
+import tf.jcaas.core.CAAS
+import tf.jcaas.model.dal.{RoleDAOImpl, UserDAOImpl}
+import tf.jcaas.model.entity.RoleInfo
 import xed.caas.controller.Tools.providesRedisPool
-import xed.caas.repository.RedisSimpleSessionDAO
-import xed.caas.util.ZConfig
-import xed.jcaas.common.DataSourceBuilder
-import xed.jcaas.core.CAAS
-import xed.jcaas.model.dal.{RoleDAOImpl, UserDAOImpl}
-import xed.jcaas.model.entity.RoleInfo
+import xed.jcaas.model.dal.RoleDAOImpl
 
 import scala.collection.JavaConverters._
 
-/**
- * @author sonpn
- */
+
 class CaasTest extends Test {
 
   val ds = DataSourceBuilder.buildMySQLDataSource(
