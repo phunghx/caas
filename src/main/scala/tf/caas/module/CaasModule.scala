@@ -3,7 +3,6 @@ package tf.caas.module
 import javax.inject.Singleton
 import javax.sql.DataSource
 import com.google.inject.Provides
-import xed.caas.service.CaasServiceImpl
 import com.twitter.inject.TwitterModule
 import org.apache.commons.lang3.SerializationUtils
 import org.apache.shiro.session.Session
@@ -16,7 +15,6 @@ import tf.caas.util.ZConfig
 import tf.jcaas.common.DataSourceBuilder
 import tf.jcaas.core.CAAS
 import tf.jcaas.model.dal.{IRoleDAO, IUserDAO, RoleDAOImpl, UserDAOImpl}
-import xed.jcaas.model.dal.RoleDAOImpl
 
 
 object CaasModule extends TwitterModule {

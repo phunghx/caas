@@ -12,9 +12,6 @@ import tf.jcaas.model.entity.{Pageable, RoleInfo}
 import tf.caas.domain.Implicits._
 import tf.caas.domain.thrift.ThriftImplicit._
 import xed.caas.domain.thrift.{Constants, TUserAuthInfo, TUserInfo}
-import xed.caas.repository._
-import xed.jcaas.model.dal.IUserDAO
-import xed.jcaas.model.entity.Pageable
 
 import scala.collection.JavaConversions._
 import scala.collection.JavaConverters.{iterableAsScalaIterableConverter, mapAsJavaMapConverter}

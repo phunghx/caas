@@ -13,7 +13,7 @@ import tf.jcaas.core.CAAS
 import tf.jcaas.model.dal.{RoleDAOImpl, UserDAOImpl}
 import tf.jcaas.model.entity.RoleInfo
 import xed.caas.controller.Tools.providesRedisPool
-import xed.jcaas.model.dal.RoleDAOImpl
+import tf.jcaas.model.dal.RoleDAOImpl
 
 import scala.collection.JavaConverters._
 

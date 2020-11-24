@@ -2,7 +2,7 @@ package tf.caas.domain.thrift
 
 import tf.jcaas.model.entity.{RoleInfo, UserInfo}
 import xed.caas.domain.thrift.{TRoleInfo, TUserInfo}
-import xed.jcaas.model.entity.UserInfo
+import tf.jcaas.model.entity.UserInfo
 
 import scala.collection.JavaConversions._
 import scala.collection.JavaConverters._

@@ -9,7 +9,7 @@ import tf.caas.controller.http.CaasController
 import tf.caas.controller.thrift.filters.CommonCustomFilter
 import tf.caas.module.CaasModule
 import tf.caas.util.ZConfig
-import xed.caas.controller._
+import tf.caas.controller._
 
 /**
  * Created by SangDang on 9/8/

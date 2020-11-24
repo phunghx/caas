@@ -1,6 +1,6 @@
 package xed.caas.controller
 
-import xed.caas.repository.FacebookOAuthRepository
+import tf.caas.repository.FacebookOAuthRepository
 import org.apache.commons.codec.digest.HmacUtils
 import tf.caas.repository.{FacebookOAuthRepository, GoogleOAuthRepository}
 import tf.caas.util.JsonParser
