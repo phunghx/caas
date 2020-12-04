@@ -13,7 +13,7 @@
         <encoding>UTF-8</encoding>
         <scala.version>2.11.11</scala.version>
         <finatra.version>18.4.0</finatra.version>
-        <mainClass>xed.caas.MainApp</mainClass>
+        <mainClass>tf.caas.MainApp</mainClass>
     </properties>
     <dependencies>
         <dependency>
